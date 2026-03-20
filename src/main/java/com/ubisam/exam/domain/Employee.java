@@ -11,7 +11,8 @@ import lombok.Data;
 @Data
 @Table(name = "example_employee")
 public class Employee {
-
+  
+  //테스트할 필드만 선언
   @Id
   @GeneratedValue
   private Long id;
